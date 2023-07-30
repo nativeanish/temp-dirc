@@ -58,6 +58,7 @@
     "clean": "npx rimraf ./dist",
     "cp": "npx copyfiles -u 1 ./contracts/**/*.json dist",
     "build": "yarn run build:contracts",
-    "deploy": "npx ts-node contracts/deploy.ts"
+    "deploy": "npx ts-node contracts/deploy.ts",
+    "dev":"npx parcel public/index.html"
   }
 }
